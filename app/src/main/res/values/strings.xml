@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">taller</string>
+    <string hint="hint">Ingrese Nombre</string>
+
+</resources>
