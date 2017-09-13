@@ -20,12 +20,25 @@ Button button;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button=(Button) findViewById(R.id.button);
+        button=(Button) findViewById(R.id.button2);
+        button=(Button) findViewById(R.id.button3);
+
         textView=(TextView) findViewById(R.id.textView);
         editText=(EditText) findViewById(R.id.editText);
     }
 
     public void clickboton(View V) {
         textView.setText(editText.getText());
-        Toast.makeText(this,"Usted oprimió el botón",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Usted oprimió el botón 1",Toast.LENGTH_SHORT).show();
     }
+
+    public void clickboton2(View V) {
+        textView.setText(editText.getText());
+        Toast.makeText(this,"Usted oprimió el botón 2",Toast.LENGTH_SHORT).show();
+    }
+    public void clickboton3(View V) {
+        textView.setText(editText.getText());
+        Toast.makeText(this,"Usted oprimió el botón 3",Toast.LENGTH_SHORT).show();
+    }
+
 }
